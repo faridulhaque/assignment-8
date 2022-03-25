@@ -1,6 +1,6 @@
 .card{
     background-color: skyblue;
-    height: 420px;
+    height: 425px;
     border: solid skyblue 3px;
     border-radius: 5px;
     color: white;
@@ -29,6 +29,7 @@
     border: none;
     border-radius: 50px;
     font-size: 14px;
+    
 }
 .card button:hover{
     
