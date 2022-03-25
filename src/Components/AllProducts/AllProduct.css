@@ -1,0 +1,19 @@
+.card{
+    background-color: skyblue;
+    height: 410px;
+    border: solid skyblue 5px;
+    border-radius: 5px;
+    color: white;
+}
+.card img{
+    width: 90%;
+    margin-left: 5%;
+    height: 240px;
+    margin-top: 5px;
+    background-color: white;
+}
+.img-bg{
+    width: 100%;
+    height: 260px;
+    background-color: white;
+}

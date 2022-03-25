@@ -1,0 +1,22 @@
+.section-a{
+    display: flex;
+    
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.container-cart{
+    width: 18%;
+    margin-right: 2%;
+    background-color: salmon;
+    height: 400px;
+}
+.container-products{
+    width: 74%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+}

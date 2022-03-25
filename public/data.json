@@ -1,56 +1,56 @@
 [
     {
       "id": "623dd8f8b41d0c1f56c1d55e",
-      "name": "Toshiba",
-      "picture": "./pictures/toshiba.png",
+      "name": "Haier",
+      "image": "./pictures/haier.png",
       "price": 333
     },
     {
       "id": "623dd8f8943a5215ec08cd48",
       "name": "Salton",
-      "picture": "./pictures/salton.png",
+      "image": "./pictures/salton.png",
       "price": 196
     },
     {
       "id": "623dd8f8f10c311ba10e7ef9",
       "name": "Hitachi",
-      "picture": "./pictures/hitachi.png",
+      "image": "./pictures/hitachi.png",
       "price": 357
     },
     {
       "id": "623dd8f8729e70916c04e390",
       "name": "Cuisinart",
-      "picture": "./pictures/cuisinart.png",
+      "image": "./pictures/cuisinart.png",
       "price": 95
     },
     {
       "id": "623dd8f8ef852d5bcb28b78d",
       "name": "Sharp",
-      "picture": "./pictures/sharp.png",
+      "image": "./pictures/sharp.png",
       "price": 304
     },
     {
       "id": "623dd8f884ed751af456f1e8",
       "name": "Panasonic",
-      "picture": "./pictures/panasonic.png",
+      "image": "./pictures/panasonic.png",
       "price": 216
     },
     {
       "id": "623dd8f828c797b976115cf0",
       "name": "LG",
-      "picture": "./pictures/lg.png",
+      "image": "./pictures/lg.png",
       "price": 166
     },
     {
       "id": "623dd8f8533a4520dab71316",
       "name": "Vision",
-      "picture": "./pictures/vision.png",
+      "image": "./pictures/vision.png",
       "price": 225
     },
     {
       "id": "623dd8f8f1ef256bb3666e6a",
       "name": "Samsung",
-      "picture": "./pictures/samsung.png",
+      "image": "./pictures/samsung.png",
       "price": 225
     }
   ]
