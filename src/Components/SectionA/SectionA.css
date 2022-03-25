@@ -24,3 +24,24 @@
     gap: 30px 20px;
     
 }
+@media only screen and (max-width: 570px) {
+    .section-a{
+        display: block;
+        font-size: auto;
+
+    }
+    .container-products{
+        width: 90%;
+        margin-left: 5%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px 20px;
+    }
+    .container-cart{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+        
+    }
+}
