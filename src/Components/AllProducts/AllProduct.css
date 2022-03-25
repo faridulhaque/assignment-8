@@ -1,9 +1,13 @@
 .card{
     background-color: skyblue;
-    height: 410px;
-    border: solid skyblue 5px;
+    height: 420px;
+    border: solid skyblue 3px;
     border-radius: 5px;
     color: white;
+}
+.card h2, h3{
+    margin-left: 5px;
+    padding: 0;
 }
 .card img{
     width: 90%;
@@ -16,4 +20,18 @@
     width: 100%;
     height: 260px;
     background-color: white;
+}
+.card button{
+    width: 100%;
+    height: 37.5px;
+    color: skyblue;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.card button:hover{
+    
+    border: solid 2px skyblue;
+    cursor: pointer;
 }

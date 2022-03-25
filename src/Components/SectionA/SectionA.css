@@ -6,17 +6,21 @@
     
 }
 .container-cart{
-    width: 18%;
-    margin-right: 2%;
+    width: 20%;
+    margin-right: 1%;
     background-color: salmon;
     height: 400px;
+    margin-top: 25px;
+    position: sticky;
+    top: 50px;
 }
 .container-products{
     width: 74%;
     margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 2%;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px 20px;
+    gap: 30px 20px;
+    
 }
