@@ -6,23 +6,36 @@ import './SectionA.css';
 
 const SectionA = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
+    
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setProducts(data))
     }, []);
-    console.log(products);
+    
+    const addToCart = (name) =>{
+
+         setCart([...cart, name]);
+    };
+    
+    
+    
     return (
         <section className='section-a'>
             <div className='container-products'>
                 {
-                    products.map(product => <AllProducts key={product.id} product={product}></AllProducts>)
+                    products.map(product => <AllProducts 
+                        key={product.id} 
+                        product={product}
+                        addToCart ={addToCart}
+                        ></AllProducts>)
                 }
                 
 
             </div>
             <div className='container-cart'>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </section>
     );
