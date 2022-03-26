@@ -3,19 +3,23 @@ import './Cart.css';
 
 const Cart = (props) => {
     const {cart} = props;
+    const removeAll = () =>{
+        console.log('removed');
+        
+    }
     
     return (
         <div className='cart'>
             <h2>Selected products</h2>
             <br/>
             {
-                cart.map((product) =><small>{product}</small>)
+                cart.map((product) =><h4 className='product-name'>{product}</h4>)
             }
             
             <br/>
             
             <button className='btn-a'>Choose one for me</button>
-            <button className='btn-b'>Remove all</button>
+            <button onClick={removeAll} className='btn-b'>Remove all</button>
             </div>
             
     );

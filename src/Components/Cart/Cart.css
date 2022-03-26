@@ -5,6 +5,10 @@
 font-size: 16px;
 text-align: center;
 }
+.product-name{
+    text-align: left;
+    margin-left: 2px;
+}
 .cart button{
     height: 30px;
     margin-top: 10px;

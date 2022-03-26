@@ -35,6 +35,7 @@ const SectionA = () => {
 
             </div>
             <div className='container-cart'>
+
                 <Cart cart={cart}></Cart>
             </div>
         </section>
