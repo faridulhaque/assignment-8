@@ -15,7 +15,7 @@
     top: 50px;
     border-radius: 5px;
     border: solid 2px skyblue;
-    position: relative;
+    /* position: relative; */
 }
 .container-products{
     width: 74%;
