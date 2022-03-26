@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-    const {cart, removeAll} = props;
+    const {cart, removeAll, choseOne} = props;
     
     
     return (
@@ -15,7 +15,7 @@ const Cart = (props) => {
             
             <br/>
             
-            <button className='btn-a'>Choose one for me</button>
+            <button onClick={choseOne} className='btn-a'>Choose one for me</button>
             <button onClick={removeAll} className='btn-b'>Remove all</button>
             </div>
             

@@ -15,11 +15,24 @@ const SectionA = () => {
     }, []);
     
     const addToCart = (name) =>{
-
-         setCart([...cart, name]);
+        if(cart.length >= 4){
+            alert('Please select less than 5');
+        }
+        else{
+            setCart([...cart, name]);
+        }
+         
     };
     const removeAll = () =>{
         setCart([]);
+    }
+    
+    const choseOne = () =>{
+       const randomNumber = (Math.floor(Math.random() * (cart.length-1)));
+       alert(cart[randomNumber]);
+      
+
+       
     }    
     
     
@@ -39,6 +52,7 @@ const SectionA = () => {
             <div className='container-cart'>
 
                 <Cart 
+                choseOne ={choseOne}
                 removeAll={removeAll}
                 cart={cart}
                 ></Cart>
