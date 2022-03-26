@@ -4,14 +4,14 @@ const QnA = () => {
     return (
         <section>
             <div>
-                <h2>Difference between props and state in react</h2>
-                <p>Main differences between them are:  we can get data with props from from another component but we cant get data from other data file with this. Here we need useState. Also props are imutable while useState is mutable.  </p>
+                <h2>How react works</h2>
+                <p>React is the most popular javascript library these days. There is a package available to install react app easily. A react package contains an app js file which is the main file in the package and it is the file where all others components are put in. Every react app has different components which is actually the dynamic codes for different parts of a website. All of them return JSX JavaScript xml. React itself create a virtual dom and collect all components in a common file, render them and show us in the websites. React also compare the old and new data and update only new data. </p>
             </div>
             <div>
-                <h2>How useState works</h2>
-
-                <p>UseState is a react function which is also called a hook in react. We can declare variable in a functional component with it.It take an initial value from the user and work with it as it get commanded and then return the present value</p>
+                <h2>Difference between props and state in react</h2>
+                <p>As we Know we can get data to one component from another component with props but we can't get data with useState. Props are immutable while useState is mutable. Another important difference we should know that props is a read only function which means it is not changed by the child component function while useState can make both read and write.</p>
             </div>
+            
         </section>
         
     );
