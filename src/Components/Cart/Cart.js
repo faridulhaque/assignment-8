@@ -14,9 +14,11 @@ const Cart = (props) => {
             }
             
             <br/>
-            
+            <div className='buttons'>
             <button onClick={choseOne} className='btn-a'>Choose one for me</button>
             <button onClick={removeAll} className='btn-b'>Remove all</button>
+            </div>
+            
             </div>
             
     );
