@@ -18,7 +18,9 @@ const SectionA = () => {
 
          setCart([...cart, name]);
     };
-    
+    const removeAll = () =>{
+        setCart([]);
+    }    
     
     
     return (
@@ -36,7 +38,10 @@ const SectionA = () => {
             </div>
             <div className='container-cart'>
 
-                <Cart cart={cart}></Cart>
+                <Cart 
+                removeAll={removeAll}
+                cart={cart}
+                ></Cart>
             </div>
         </section>
     );

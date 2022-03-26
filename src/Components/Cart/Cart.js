@@ -2,11 +2,8 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-    const {cart} = props;
-    const removeAll = () =>{
-        console.log('removed');
-        
-    }
+    const {cart, removeAll} = props;
+    
     
     return (
         <div className='cart'>
