@@ -10,7 +10,7 @@ const QnA = () => {
             </div>
             <div>
                 <h2>Difference between props and state in react</h2>
-                <p>As we Know we can get data to one component from another component with props but we can't get data with useState. Props are immutable while useState is mutable. Another important difference we should know that props is a read only function which means it is not changed by the child component function while useState can make both read and write.</p>
+                <p>As we Know we can get data to one component from another component with props but we can't get data with State from components. Props are immutable while State is mutable. Another important difference we should know that props is a read only function which means it is not changed by the child component while useState can make both read and write.</p>
             </div>
             
         </section>
