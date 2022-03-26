@@ -1,0 +1,27 @@
+
+.cart h2{
+font-size: 16px;
+text-align: center;
+}
+.cart button{
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.cart button:hover{
+    cursor: pointer;
+}
+.btn-a{
+    background-color: green;
+}
+.btn-b{
+    background-color: red;
+}
+.buttons{
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0;
+}
