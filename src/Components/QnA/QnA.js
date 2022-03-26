@@ -1,8 +1,9 @@
 import React from 'react';
+import './QnA.css';
 
 const QnA = () => {
     return (
-        <section>
+        <section className='section-qna'>
             <div>
                 <h2>How react works</h2>
                 <p>React is the most popular javascript library these days. There is a package available to install react app easily. A react package contains an app js file which is the main file in the package and it is the file where all others components are put in. Every react app has different components which is actually the dynamic codes for different parts of a website. All of them return JSX JavaScript xml. React itself create a virtual dom and collect all components in a common file, render them and show us in the websites. React also compare the old and new data and update only new data. </p>
